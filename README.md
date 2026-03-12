@@ -29,7 +29,7 @@ Equips AI agents with crucial patterns for developing within the Obsidian ecosys
 
 ### 💻 [`obsidian-cli`](skills/obsidian-cli/SKILL.md)
 
-Equips AI agents to interact directly with a running Obsidian instance from the terminal:
+Tweaks to the official [Obsidian CLI](https://help.obsidian.md/cli) that streamlines:
 
 - 📝 **Vault Operations** — Read, create, append, and search notes via CLI
 - ✅ **Task & Property Management** — Manage tasks, tags, properties, and daily notes
