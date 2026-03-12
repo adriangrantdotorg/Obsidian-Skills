@@ -1,8 +1,8 @@
-# 🪨✨ Obsidian SKILLS
+# 🪨✨ Obsidian Skills
 
 ![Obsidian SKILLS Banner](banner.png)
 
-> A collection of Agent Skills for Obsidian — teaching AI coding assistants best practices for plugin development, theme customization, and vault management via the CLI.
+> A collection of Agent Skills for Obsidian. Level-up your AI coding assistant with best practices for plugin development, theme customization, vault management, and more!
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Anthropic-purple)](https://claude.ai)
@@ -13,15 +13,13 @@
 [![Agent Skills Standard](https://img.shields.io/badge/Agent%20Skills-Standard-blue.svg)](https://github.com/anthropics/skills)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-Give your AI coding assistant deep, battle-tested knowledge of the Obsidian ecosystem — so it can build plugins, fix CSS bugs, manage notes, and reload your vault from the terminal without ever needing hand-holding.
-
 ---
 
-## ✨ Skills Included
+## ✨ Included Skills
 
 ### 🧠 [`obsidian-best-practices`](skills/obsidian-best-practices/SKILL.md)
 
-Equips AI agents with crucial patterns and pitfalls for developing within the Obsidian ecosystem:
+Equips AI agents with crucial patterns for developing within the Obsidian ecosystem:
 
 - 🛡️ **Safety & Null Checking** — Defensive patterns for internal APIs and undocumented interfaces
 - 🖊️ **Editor & CodeMirror 6** — Correct approaches for Live Preview mode interaction
@@ -84,7 +82,7 @@ git clone https://github.com/adriangrantdotorg/Obsidian-SKILLS.git ~/.gemini/ski
 1. Download the [latest release](https://github.com/adriangrantdotorg/Obsidian-SKILLS/releases)
 2. Extract and copy the desired skill folder(s) to your platform's skills directory
 3. Ensure each skill has a `SKILL.md` file at its root
-4. Restart your AI assistant or reload the workspace
+4. If necessary, restart your AI assistant or reload the workspace
 
 ---
 
