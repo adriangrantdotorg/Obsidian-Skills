@@ -1,4 +1,4 @@
-# 🪨✨ Obsidian Skills
+# 🪨✨ Obsidian Agentic Skills
 
 ![Obsidian Skills Banner](banner.png)
 
