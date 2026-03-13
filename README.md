@@ -1,6 +1,6 @@
 # 🪨✨ Obsidian Skills
 
-![Obsidian SKILLS Banner](banner.png)
+![Obsidian Skills Banner](banner.png)
 
 > A collection of Agent Skills for Obsidian. Level-up your AI coding assistant with best practices for plugin development, theme customization, vault management, and more!
 
@@ -52,15 +52,15 @@ This skill collection follows the [Agent Skills open standard](https://github.co
 
 ### Quick Reference Table
 
-| **Platform**           | **Type** | **Installation Path**                              | **Invocation**                              |
-| ---------------------- | -------- | -------------------------------------------------- | ------------------------------------------- |
-| **Google Antigravity** | IDE      | `.agent/skills/obsidian-best-practices/`           | Automatically invoked when relevant         |
-| **Google Antigravity** | IDE      | `.agent/skills/obsidian-cli/`                      | Automatically invoked when relevant         |
-| **Claude Code**        | CLI      | `~/.claude/skills/obsidian-best-practices/`        | `Use the Obsidian best practices skill...`  |
-| **Gemini CLI**         | CLI      | `~/.gemini/skills/obsidian-best-practices/`        | Automatically invoked when relevant         |
-| **OpenCode**           | IDE      | `~/.config/opencode/skills/obsidian-best-practices/` | `skill({ name: "obsidian-best-practices" })` |
-| **Cursor IDE**         | IDE      | `.cursor/skills/obsidian-best-practices/`          | Mentioned in chat with `@obsidian-best-practices` |
-| **OpenAI Codex**       | CLI      | `~/.codex/skills/obsidian-best-practices/`         | Automatically invoked when relevant         |
+| **Platform**           | **Type** | **Installation Path**                                | **Invocation**                                    |
+| ---------------------- | -------- | ---------------------------------------------------- | ------------------------------------------------- |
+| **Google Antigravity** | IDE      | `.agent/skills/obsidian-best-practices/`             | Automatically invoked when relevant               |
+| **Google Antigravity** | IDE      | `.agent/skills/obsidian-cli/`                        | Automatically invoked when relevant               |
+| **Claude Code**        | CLI      | `~/.claude/skills/obsidian-best-practices/`          | `Use the Obsidian best practices skill...`        |
+| **Gemini CLI**         | CLI      | `~/.gemini/skills/obsidian-best-practices/`          | Automatically invoked when relevant               |
+| **OpenCode**           | IDE      | `~/.config/opencode/skills/obsidian-best-practices/` | `skill({ name: "obsidian-best-practices" })`      |
+| **Cursor IDE**         | IDE      | `.cursor/skills/obsidian-best-practices/`            | Mentioned in chat with `@obsidian-best-practices` |
+| **OpenAI Codex**       | CLI      | `~/.codex/skills/obsidian-best-practices/`           | Automatically invoked when relevant               |
 
 ### Installation
 
@@ -68,18 +68,18 @@ This skill collection follows the [Agent Skills open standard](https://github.co
 
 ```bash
 # For Google Antigravity (project skills — place in your vault's .agent folder)
-git clone https://github.com/adriangrantdotorg/Obsidian-SKILLS.git .agent/skills
+git clone https://github.com/adriangrantdotorg/Obsidian-Skills.git .agent/skills
 
 # For Claude Code (global skills)
-git clone https://github.com/adriangrantdotorg/Obsidian-SKILLS.git ~/.claude/skills/obsidian
+git clone https://github.com/adriangrantdotorg/Obsidian-Skills.git ~/.claude/skills/obsidian
 
 # For Gemini CLI (global skills)
-git clone https://github.com/adriangrantdotorg/Obsidian-SKILLS.git ~/.gemini/skills/obsidian
+git clone https://github.com/adriangrantdotorg/Obsidian-Skills.git ~/.gemini/skills/obsidian
 ```
 
 #### **Option 2: Manual Installation**
 
-1. Download the [latest release](https://github.com/adriangrantdotorg/Obsidian-SKILLS/releases)
+1. Download the [latest release](https://github.com/adriangrantdotorg/Obsidian-Skills/releases)
 2. Extract and copy the desired skill folder(s) to your platform's skills directory
 3. Ensure each skill has a `SKILL.md` file at its root
 4. If necessary, restart your AI assistant or reload the workspace
@@ -97,6 +97,7 @@ Once installed, your AI agent will automatically apply best practices when worki
 ```
 
 The agent will:
+
 - Structure `manifest.json` with correct `minAppVersion`
 - Use optional chaining on all internal APIs
 - Chain `npm run build && obsidian plugin:reload id=<plugin-id>` for fast iteration
@@ -108,6 +109,7 @@ The agent will:
 ```
 
 The agent will:
+
 - Run `obsidian dev:errors` to surface silent failures
 - Use `obsidian eval code="..."` to inspect live app state
 - Check `community-plugins.json` registration if the plugin is newly installed
@@ -119,6 +121,7 @@ The agent will:
 ```
 
 The agent will:
+
 - Replace `display: none` ↔ `display: flex` transitions with `visibility: hidden/visible`
 - Apply `position: absolute` for overlay elements to avoid reflowing siblings
 - Use Obsidian's native CSS variables (`--text-normal`, `--nav-item-color-hover`, etc.)
@@ -130,6 +133,7 @@ The agent will:
 ```
 
 The agent will:
+
 - Use `obsidian search query="#inbox"` to find matching notes
 - Use `obsidian append file="..."` to update each note
 - Respect vault targeting with `vault=<name>` if needed
@@ -144,8 +148,8 @@ Contributions are welcome! Whether you're adding new skills, refining existing p
 
 ```bash
 # Fork and clone the repository
-git clone https://github.com/adriangrantdotorg/Obsidian-SKILLS.git
-cd Obsidian-SKILLS
+git clone https://github.com/adriangrantdotorg/Obsidian-Skills.git
+cd Obsidian-Skills
 
 # Create a feature branch
 git checkout -b feature/your-skill-or-fix
@@ -175,8 +179,8 @@ git push origin feature/your-skill-or-fix
 
 Encountered a problem or have a suggestion?
 
-- **Bug Reports**: [Open an issue](https://github.com/adriangrantdotorg/Obsidian-SKILLS/issues/new?template=bug_report.md)
-- **Feature Requests**: [Request a feature](https://github.com/adriangrantdotorg/Obsidian-SKILLS/issues/new?template=feature_request.md)
+- **Bug Reports**: [Open an issue](https://github.com/adriangrantdotorg/Obsidian-Skills/issues/new?template=bug_report.md)
+- **Feature Requests**: [Request a feature](https://github.com/adriangrantdotorg/Obsidian-Skills/issues/new?template=feature_request.md)
 
 ---
 
